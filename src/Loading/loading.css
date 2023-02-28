@@ -1,0 +1,36 @@
+.loading__container{
+    background-color: #8ab3cf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.loading__logo{
+    background:  url('../img/Mangalandy.gif') center center no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    margin: 2rem;
+}
+
+.loading__paragraph{
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+@media only screen and (max-width: 600px) {
+    .loading__logo{
+        width: 200px;
+        height: 200px;
+    }
+    .loading__paragraph{
+        font-size: 2rem;
+        color: #ffffff;
+        text-align: center;
+    }
+}

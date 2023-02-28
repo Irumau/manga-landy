@@ -1,0 +1,104 @@
+.manga-section__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 0.5rem;
+}
+
+.manga-section__title{
+    color: #333333;
+    text-decoration:underline;
+    font-size: 2rem;
+    margin: 2rem;
+}
+
+.manga-section__ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px ;
+    flex-wrap: wrap;
+}
+
+.manga-section__items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    background: #4180ab;
+    box-shadow: 5px 5px 5px #333333;
+    width: 220px;
+    border-radius: 10px;
+}
+
+
+.manga-section__link{
+    text-align: center;
+}
+
+.manga-section__container-state{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: .3rem 0 ;
+}
+
+.manga-section__fa-star{
+    color: #dfee08;
+    font-size: 1.2rem;
+    margin: 0 .3rem;
+}
+.manga-section__score{
+    color: #333333;
+    font-weight: 200;
+}
+
+.manga-section__img{
+    border-radius: 0.5rem;
+    width: 200px;
+    height: 300px ;
+    object-fit: cover;
+    margin: 0 0 .5rem 0;
+    text-align: center;
+}
+
+.manga-section__mangaTitle{
+    color: #333333;
+    font-weight: 200;
+    text-align: center;
+    width: 200px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    cursor:default;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .manga-section__container{
+        padding: 0 ;
+    }
+    .manga-section__title{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .manga-section__ul{
+        gap: 20px ;
+    }
+
+    .manga-section__items{
+        max-width: 500px;
+        width: 170px;
+
+    }
+    .manga-section__img{
+        width: 150px;
+        height: 200px ;
+    }
+    .manga-section__mangaTitle{
+        width: 150px;
+    }
+}
+
+

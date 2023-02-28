@@ -1,0 +1,80 @@
+.footer-section{
+    background-color: #4180ab;
+    margin: 5rem 0 0;
+    padding: 2rem;
+}
+
+
+.footer-section__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+}
+
+.footer-section__logo{
+    border-radius: 100%;
+    object-fit:cover;
+    height: 100px;
+    width: 100px;
+}
+
+.footer-section__thanks{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-left: 2px solid #333;
+    color: #ffff;
+    font-weight: 200;
+    height: 4.5rem;
+    padding: 0 1rem;
+}
+
+.footer-section__thanks > a{
+    color: #333;
+    transition: color 800ms ease;
+}
+.footer-section__thanks > a:hover{
+    color: #141414;
+}
+
+.footer-section__list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-left: 2px solid #333;
+    height: 3.5rem;
+    padding: 0 1rem;
+}
+
+.footer-section__redes{
+    font-weight: 200;
+    margin: 0.2rem 0;
+    transition: color 800ms ease;
+}
+
+.footer-section__redes > a:hover{
+    color: #333;
+}
+
+.footer-section__redes-icon{
+    font-size: 1.2rem;
+    margin: 0 0.1rem 0 0;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .footer-section__logo{
+        height: 80px;
+        width: 80px;
+    }
+    .footer-section__redes{
+        text-align: center;
+        font-size: 0.8rem;
+    }
+    .footer-section__redes-icon{
+        font-size: 1rem;
+        margin: 0 0.1rem 0 0;
+    }
+    
+}

@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body{
+    background-color: #8ab3cf;
+    font-family: 'Fredoka One', cursive;
+    scroll-behavior: smooth;
+}
+
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
