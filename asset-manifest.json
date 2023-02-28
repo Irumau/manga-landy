@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/manga-landy/static/css/main.0a2a0f9b.css",
+    "main.js": "/manga-landy/static/js/main.c0056c01.js",
+    "static/media/Mangalandy.gif": "/manga-landy/static/media/Mangalandy.7b5090ddc600c6f48f94.gif",
+    "static/media/about-us__backgroundImg.jpg": "/manga-landy/static/media/about-us__backgroundImg.195d18949f78d92a946c.jpg",
+    "static/media/Mangalandy.png": "/manga-landy/static/media/Mangalandy.0d54ffaa35b0aae051d2.png",
+    "index.html": "/manga-landy/index.html",
+    "main.0a2a0f9b.css.map": "/manga-landy/static/css/main.0a2a0f9b.css.map",
+    "main.c0056c01.js.map": "/manga-landy/static/js/main.c0056c01.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a2a0f9b.css",
+    "static/js/main.c0056c01.js"
+  ]
+}
